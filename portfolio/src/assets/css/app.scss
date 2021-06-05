@@ -1,0 +1,336 @@
+h1,
+h2 {
+  font-weight: normal;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  // display: inline-block;
+  margin: 0px 10px;
+}
+a {
+  color: #42b983;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+  header {
+    width: 100vw;
+    height: 100vh;
+    padding: 0px;
+    // background-color: #42b983;
+    .head-text {
+      line-height: 0.3;
+      h4 {
+        color: #ff5e62;
+      }
+      h2 {
+        // background-color: #42b983;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        font: 400 4rem "Bubblegum Sans";
+        line-height: 0.7;
+        // background-color: #ff5e62;
+      }
+      h3 {
+        font: 600 2.5rem "Poppins";
+        color: #848686;
+        margin: 0;
+        padding: 0;
+
+        // background-color: #42b983;
+      }
+      p {
+        font: 400 1.1rem "Poppins";
+      }
+
+      .scroll {
+        position: absolute;
+        top: 35rem;
+        left: 14rem;
+        color: #414042;
+        font: 400 1rem "Poppins";
+        height: 100vh;
+      }
+      .scroll-line::after {
+        content: " ";
+        position: absolute;
+        top: 38rem;
+        left: 15.54rem;
+        border-left: 1px solid #414042;
+        height: 20rem;
+      }
+    }
+
+    .hanger-div {
+      // width: 100vw;
+      margin: 4rem 0 0 6rem !important;
+      padding: 0;
+      display: flex;
+      flex-direction: row;
+      // justify-content: end;
+      z-index: 3;
+      .header-img {
+        width: 50vw;
+        height: 580px;
+      }
+    }
+  }
+  section {
+    height: 100vh;
+    // background-color: #ff5e62;
+  }
+}
+#cta-section {
+  margin-top: 8rem;
+  // width: 100vw;
+  height: 100vh;
+  .main-text {
+    font: 600 2.3rem "Poppins";
+  }
+  .cta-text {
+    font: 400 1.1rem "Poppins";
+    text-align: left;
+  }
+
+  .cta-div {
+    margin-top: 2rem;
+  }
+
+  #blue-square {
+    display: flex;
+    width: 456px;
+    height: 628px;
+    background-color: #d4f3fa;
+    z-index: 1;
+  }
+  #red-square {
+    position: absolute;
+    top: 5rem;
+    right: 6rem;
+    width: 530px;
+    height: 123px;
+    background-color: #ff5e62;
+    z-index: 2;
+    vertical-align: middle;
+    .work-h1 {
+      font: 600 2.3rem "Poppins";
+      line-height: 1.4;
+    }
+    .work-p {
+      margin: 0;
+      font: 400 1.2rem "Poppins";
+      line-height: 0.3;
+    }
+  }
+  #sneaker {
+    position: absolute;
+    top: 20rem;
+    right: 5rem;
+  }
+}
+
+#quote-section {
+  position: static;
+  margin: 0;
+  width: 100vw;
+  height: 60vh;
+  background-color: #fff7df;
+  h3 {
+    width: 50rem;
+    font: 600 2rem "Poppins";
+  }
+  p {
+    font: 600 1rem "Poppins";
+    color: #ff5e62;
+  }
+  strong {
+    color: #ff5e62;
+    font: 600 2rem "Poppins";
+  }
+  .author-quote {
+    width: 50rem;
+  }
+}
+
+#projects-section {
+  margin-top: -40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  .red-box {
+    position: absolute;
+    left: 0px;
+    width: 30rem;
+    height: 100vh;
+    background-color: #ff6762;
+    z-index: 1;
+  }
+  .project-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    height: 100vh;
+
+    .project-sub-grid {
+      display: flex;
+      flex-direction: row;
+      justify-content: start;
+      width: 90vw;
+      height: 80vh;
+      background-color: white;
+      border-radius: 20px;
+      z-index: 1;
+
+      button {
+        display: flex;
+        justify-self: end;
+        height: 3rem;
+      }
+    }
+  }
+}
+
+#supplies-section {
+  display: flex;
+  flex-direction: column;
+  // width: 100vw;
+  height: 80vh;
+  position: relative;
+  // background-color: #42b983;
+
+  .tape-measure {
+    position: absolute;
+    top: -3rem;
+    z-index: 1;
+    left: -8rem;
+  }
+  .supplies-container {
+    margin: 4rem 0 2rem 3rem;
+    height: 100vh;
+    div h1 {
+      font: 600 2.5rem "Poppins";
+      line-height: 0.8;
+    }
+    div p {
+      font: 400 1.4rem "Poppins";
+    }
+    .supplies-ul {
+      font: 400 1.4rem "Poppins";
+    }
+  }
+}
+
+#contact-section {
+  height: 100vh;
+}
+.tape {
+  position: absolute;
+  top: 0;
+  left: -6rem;
+  z-index: 1;
+}
+.blob {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.navbar-div {
+  margin: 15px 15rem 0 10rem;
+  font: 600 0.9rem "Poppins";
+  min-width: 25rem;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  // background-color: #42b983;
+  ul {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    li {
+      margin: 1rem;
+      // background-color: aquamarine;
+      display: flex;
+      flex-direction: row;
+      align-self: center;
+      justify-content: center;
+    }
+  }
+}
+
+.nav-icons {
+  margin: 0 8px;
+  width: 18px;
+  height: 18px;
+  z-index: 2;
+}
+
+.nav-logo {
+  margin: 0 3.4rem;
+  width: 170px;
+  height: 80px;
+}
+
+// .footer {
+//   position: absolute !important;
+//   bottom: 0 !important;
+//   width: 100% !important;
+//   height: 60px !important;
+//   line-height: 60px !important;
+//   background-color: #f5f5f5 !important;
+// }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .container {
+    background-color: green;
+    .blob {
+      display: none;
+    }
+    header {
+      .hanger-div {
+        display: none;
+      }
+    }
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .container {
+    background-color: red;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .container {
+    background-color: #42b983;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .container {
+    background-color: brown;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .container {
+    background-color: white;
+  }
+}
