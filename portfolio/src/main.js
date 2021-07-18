@@ -4,8 +4,7 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 require('../src/assets/css/app.css');
-require('../src/assets/css/bootstrap.min.css');
-// require('../src/assets/js/bootstrap.min.js');
+// require('../src/assets/css/fontawesome.min.css');
 
 Vue.config.productionTip = false
 
