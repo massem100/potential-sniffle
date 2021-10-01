@@ -1,140 +1,124 @@
 <template>
-    <div class="">
-        <aside class="">
-                    <img style="display:none;" src="../assets/uploads/yellow-blob.svg" alt="" class="blob">
-                       <!-- <img src="../assets/uploads/tapemeasure.svg" class="tape"> -->
-        </aside>  
-        <!-- <div class="col-lg-12"></div> -->
-        <div class="container_main"> 
-            <header> 
-                <div class="header-hero-container"> 
-                    <div class="header-hero">
-                        <div class="head-text">
-                            <h4 >Hi, my name is </h4>
-                            <h2 >KRYSTALL MESSAM.</h2>
-                            <h3>I create outfits for the web.</h3>
-                            <p>Despite the stereotypes about developers, my closet consists <br/>
-                                of no sweatpants and t-shirts but it is quite colorful with <br/>
-                             <strong>beautifully coded tops </strong> and <strong>killer graphical jeans.</strong></p>
-                            
-                                <span class="scroll">SCROLL</span>
-                                <span class="scroll-line"></span>
-                        </div>
-                        <div class="hanger-div ">
-                            <img src="../assets/uploads/hanger.svg" alt="" id="header-img">
-                        </div>  
-                    </div>
-                </div>
-            </header>
-            
-            
-        <section id="cta-section" class=""> 
-                <div class="">
-                    <div class="cta-div">
-                        <div class="">
-                            <h1 class="main-text">A passion for all things tech.</h1>
-                            <p class="cta-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi minus laborum omnis, officia minima sapiente quo</p>
-                        </div>
-                        <div class="">
-                        
-                            <div id="red-square" class="">
-                                <div class="">
-                                    <h1 class="work-h1">Let’s work together.</h1>
-                                    <p class="work-p">to create more outfits for the web.</p>
-                                </div>
-                            </div>
-                            <div id="blue-square">
-                                <img id="sneaker" src="../assets/uploads/sneaker.svg" alt="">
-                            </div>
+  <!-- Main outer div -->
+  <div class="">
+    <!-- Header Section -->
+    <header id="header_section">
+        <div class="header_details">
+            <div class="purpleblob_ctn">
+                <img
+                    class="purpleblob"
+                    src="../assets/uploads/purpleblob.svg"
+                    alt=""
+                />
+            </div>
+        <div class="hero_ctn">
+            <span class="intro_span">Hi, my name is </span>
+            <h1>Krystall Messam</h1>
 
-                        
-                        </div>
-                    </div>
-                </div>
-            
-            </section>
-            
-           
+            <div class="sub_text">
+                <span>A creative at heart</span>
+                <div class="subtext_line"></div>
+                <span class="subtext_here"> here.</span>
+            </div>
+
+            <p>
+                Just a creative trying to make it doing the things that she is
+                passionate about and that make her genuinely happy. Development and
+                design does it for me. Follow me on the journey.
+            </p>
+
+            <div class="CTA_btn">Get in touch</div>
+            </div>
         </div>
-        <!-- <section id="quote-section" class="col-lg-12"> 
-             <div class="">
-                <div class="">
+      <!-- <div class="blueblob_ctn">
+             <img class= "blueblob" src="../assets/uploads/blueblob.svg" alt="">
+        </div> -->
+    </header>
+
+    <!-- About Me Section -->
+
+    <section id="about_section">
+            <h1 class="section_h1s">About Me</h1>
+            <div class="cyclinder_shp"> </div>
+            <img class="aboutme_pic" src="../assets/uploads/portfolio_pix.png" alt="">
+            <div class="glass_bg"> 
+                <h1 class = "about_name">Krystall Messam</h1>
+                <span class="title"> Software Engineer | Designer </span>
+                <!-- <img class="aboutme_pic" src="../assets/uploads/aboutme_pic.png" alt="">  -->
+                <p>
+                    I’m a budding software engineer and designer.
+                        <br/> 
+                        <br/>
+
+                    At my core, I am a creative but with an anlytical side - 
+                    I’ve never shied away from the numbers, I embraced them. 
+                    A Jamaican-born problem solver ready to take on the world. 
+                    <br/> <br/>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    rutrum sodales posuere iaculis habitant nisi ut. Tempus, 
+                    luctus aliquam vitae ornare leo.
+                </p>
+                <div class="attribute_icons"> 
+                    <p>I love to - soon come back to this</p>
+                    <!-- <div class="attributes">
+                        <img src="" alt=""> 
+                        <span>Problem Solve</span>
+                        </div>
+                    <div class="attributes">
+                        <img src="" alt=""> 
+                        <span>Travel</span>
+                        </div>
+                    <div class="attributes">
+                        <img src="" alt=""> 
+                        <span>Paint</span>
+                        </div>
+                    <div class="attributes">
+                        <img src="" alt=""> 
+                        <span>Watch Tv Shows</span>
+                    </div> -->
+                </div>
+            </div>
+    </section> 
+
+    <section id="featured_projects">
+        
+        <h1 class="section_h1s">Featured Projects</h1>
+        <div class="project_ctn">
+            <div class="project_details">
+                <span>Featured Project</span>
+                <h2>SugoiFit Financials</h2>
+                <p>A Business Management System for small businesses to manage 
+                    their daily operations and keep track of their financials. 
+                </p>
+            
+                <ul class="languages">
+                    <li>Vue</li>
+                    <li>Nuxt.js</li>
+                    <li>Flask</li>
+                    <li>BootstrapVue</li>
                     
-                    <h3 class=""><strong class="">"</strong>We can not solve our problems with the same level of thinking that created them.
-                    <strong class="">"</strong> 
-                    </h3> 
-                </div>
-                    <div class="author-quote">
-                        <p class="mr-4">Albert Einstein</p>
-                    </div>
-                    
-             </div>
-            </section> -->
-            <!-- <section id= "projects-section" class="">
-                <div class="red-box "></div>
-                <div class="project-container"> 
-                    <div class="project-sub-grid">
-                    <div class="">
-                        <div class="">
-                            <h1 class="">Projects</h1>
-                            <p class="">My favourite outfits in my closet.</p>
-                        </div>
+                </ul> 
+                <div class="project_btn"> See full project</div>
 
-                        <button class="">All Projects</button>
-                       
-                    </div>
-                       
-                </div>
-
-                </div>
                 
-            </section> -->
-            <!-- <section id="supplies-section" class="">
-                 <img src="../assets/uploads/tapemeasure.svg" class="tape-measure">
-                <div class="supplies-container">
-                    <div class="">
-                        <h1 class="main-text">These are my supplies</h1>
-                        <p>The Gap is cool but I create my outfits.</p>
-                    </div>
-                    <div class="skills-section ">
-                        <div class="">
-                            <strong><h3>Tools</h3></strong>
-                            <ul class="supplies-ul">
-                            
-                                <li>Photoshop</li>
-                                <li>Illustrator</li>
-                                <li>Premiere Pro (Beginner)</li>
-                                <li>Figma</li>
-                                <li>Visual Studio Code</li>
-                            </ul>
-                        </div>
-                        <div class="">  
-                            <strong><h3>Development</h3></strong>
-                            <ul class="supplies-ul">
-                                <li>HTML5</li>
-                                <li>CSS, Bootstrap, SASS</li>
-                                <li>JavaScript (VueJS)</li>
-                                <li>Python (Flask)</li>
-                            </ul>
-                        </div> 
-                        <div class="">
-                            <strong><h3>Database</h3></strong>
-                            <ul class="supplies-ul">
-                                <li>MySQL</li>
-                                <li>PostgreSQL</li>
-                            </ul>
-                        </div>
+            </div>
+            
+            <img class="project_image" src="../assets/uploads/project_image.png" alt=""> 
+            
+             
+            
+        </div>
+    </section>
 
-                    </div>
-                
-                </div>
-               
-            </section> -->
+    <section id="contact_section">
+        <h1 class="section_h1s">Contact</h1>
+
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, odio hic! Cumque consectetur sit modi, asperiores excepturi, iusto,
+
+        </p>
+        <div class="CTA_btn"> Get in touch</div>
+
+    </section>
     
-            <!-- <section id="contact-section" class=""> 
-                <h2> Get in touch</h2>
-                <h5>Do you want to hire me or collaborate? Shoot me a message.</h5>
-            </section>  -->
-
-    </div>
+  </div>
 </template>

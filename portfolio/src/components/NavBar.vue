@@ -2,39 +2,40 @@
   <nav class="">
     <div class="nav-container">
     <img class="nav-logo" src="../assets/uploads/logo.svg" alt="">
+    <!-- <img class="nav-logo" src="../assets/uploads/M.svg" alt=""> -->
     <div class="nav-menu" @click="navdropdown">      
       <div class="nav-hamburgerctn">
         <div class="nav-hamburgerbtn"></div>
         <div class="nav-hamburgerbtn"></div>
-        <div class="nav-hamburgerbtn"></div>
+        <!-- <div class="nav-hamburgerbtn"></div> -->
     </div>
 
     </div>
     
-    <div class="navbar-div"> 
+    <!-- <div class="navbar-div"> 
         <ul class="">
             <li class="">Development</li>
             <li class="">Graphic Design</li>
             <li class="">About</li>
             <li class="">Contact</li>
         </ul>
-    </div>
+    </div> -->
     <div class="navbar-nav">
         <!-- <img class="nav-icons"  src="../assets/uploads/instagram.svg" alt=""> -->
-        <img class="social-icon" src="../assets/uploads/linkedin.svg" alt="">
+        <!-- <img class="social-icon" src="../assets/uploads/linkedin.svg" alt=""> -->
         <!-- <img class="nav-icons" src="../assets/uploads/facebook.svg" alt=""> -->
-        <img class="social-icon"  src="../assets/uploads/github.svg" alt="">
-        <img class="social-icon"  src="../assets/uploads/dribbble-logo.svg" alt="">  
+        <!-- <img class="social-icon"  src="../assets/uploads/github.svg" alt=""> -->
+        <!-- <img class="social-icon"  src="../assets/uploads/dribbble-logo.svg" alt="">   -->
     </div>  
   </div>
-  <div class="dropdown" @focus="handleFocus" @focusout="handleFocusOut" @mouseleave="handleFocusOut" tabindex="-1">
+  <!-- <div class="dropdown" @focus="handleFocus" @focusout="handleFocusOut" @mouseleave="handleFocusOut" tabindex="-1">
      <ul class="">
             <li class="">Development</li>
             <li class="">Graphic Design</li>
             <li class="">About</li>
             <li class="">Contact</li>
         </ul>
-  </div>
+  </div> -->
   </nav>
  
 </template>

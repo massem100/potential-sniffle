@@ -1,200 +1,351 @@
+/* ------------------CSS RESETS AND BASE RULES ------------------*/
+/*-------------COLOUR ---------------*/
+/* prettier-ignore */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* prettier-ignore */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  background-color: #033232;
+}
+
+ol,
 ul {
-  list-style-type: none;
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*-----------------------------------*/
+* {
+  margin: 0;
   padding: 0;
 }
 
-li {
-  margin: 0px 10px;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
-a {
-  color: #42b983;
-}
-
-html,
-body {
-  padding: 0px;
-  margin: 0px !important;
-  width: 100%;
-  font-size: 16px;
+p {
+  margin: 5px 0 10px 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.875rem;
+  color: #ffffff;
   line-height: 1.6;
 }
 
+/* LAYOUTS */
+/* Nav */
+nav {
+  display: flex;
+  flex-direction: row;
+  background-color: #033232;
+  padding: 0.5rem;
+}
+
+#header_section {
+  display: block;
+  padding: 2em 0;
+  max-width: 100%;
+}
+
+#about_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 1rem;
+  position: relative;
+  text-align: left;
+  width: 100vw;
+  max-width: 100%;
+}
+
+#featured_projects {
+  padding: 2rem 1rem;
+  max-width: 100%;
+  color: #ffffff;
+  background-color: #033232;
+}
+
+#contact_section {
+  padding: 1rem;
+}
+
+#footer {
+  background-color: antiquewhite;
+}
+
+nav {
+  /*Nav Hamburger */
+}
 nav .nav-container {
   display: flex;
   flex-direction: row;
-  justify-content: center;
   align-items: center;
-  margin: 0px;
-  font-size: 1rem;
-  background-color: white;
-  position: relative;
-  z-index: 256259629582;
-  padding: 0.5em 2em;
+  width: 100vw;
+  max-width: 100%;
 }
-nav .nav-container .navbar-div {
-  display: none;
+nav .nav-logo {
+  margin: 0 1rem 0 1rem;
+  width: 6rem;
+  height: 3rem;
 }
-nav .nav-container .navbar-div ul {
-  display: none;
-}
-nav .nav-container .nav-logo {
-  display: flex;
-  justify-content: flex-start;
-  margin: 0;
-  width: 140px;
-  height: 60px;
-  position: relative;
-  z-index: 2;
-}
-nav .nav-container .navbar-nav {
-  display: flex;
-  flex-direction: row;
-}
-nav .nav-container .navbar-nav .social-icon {
-  display: none;
-  width: 20px;
-  height: 20px;
-}
-nav .nav-container .nav-menu {
+nav .nav-menu {
   margin-left: auto;
-  width: 2vw;
+}
+nav .nav-hamburgerctn {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  cursor: pointer;
+  width: 2rem;
+  height: 2rem;
 }
-nav .nav-container .nav-menu .nav-hamburgerbtn {
-  width: 20px;
+nav .nav-hamburgerctn .nav-hamburgerbtn {
+  margin: 2px 0;
+  content: " ";
+  width: 1.5rem;
   height: 2px;
-  margin-bottom: 4px;
-  background-color: #191919;
-}
-nav .dropdown {
-  display: none;
-  width: 100vw;
-  background-color: rgba(255, 247, 223, 0.8);
-  position: absolute;
-  z-index: 1;
-  top: 0;
-  -webkit-animation: translateDown 600ms ease-in-out forwards;
-          animation: translateDown 600ms ease-in-out forwards;
-  transform-origin: top center;
+  transition: all 0.3s ease-in-out;
+  background-color: #ffffff;
 }
 
-header {
-  width: 100vw;
-  height: 100vh;
-  padding: 0px;
+.section_h1s {
+  margin-top: 2rem;
+  color: #c8f3d7;
+  font-family: "Yeseva One", cursive;
+  font-size: 2rem;
+  font-weight: 400;
 }
-header .header-hero-container {
-  margin: 2em 2em;
+
+.CTA_btn {
+  margin-top: 1rem;
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
-  background-color: #848686;
+  width: 10em;
+  height: 3em;
+  font-weight: 600;
+  color: #033232;
+  background-color: #6fc68e;
 }
-header .header-hero-container .header-hero {
+
+#header_section .header_details {
+  margin: 1.5rem 0;
+  padding: 0 1rem;
+  max-width: 100%;
+}
+#header_section .header_details .hero_ctn {
+  margin-top: 20vh;
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
 }
-header .header-hero-container .header-hero .head-text {
-  line-height: 0.3;
-  background-color: #fcd8d9;
-}
-header .header-hero-container .header-hero .head-text h4 {
-  color: #ff5e62;
-}
-header .header-hero-container .header-hero .head-text h2 {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  font: 400 2rem "Bubblegum Sans";
-  line-height: 0.7;
+#header_section .header_details .hero_ctn .intro_span {
   text-align: left;
+  font-size: 0.875rem;
+  font: 300 "Poppins";
+  color: #ffffff;
 }
-header .header-hero-container .header-hero .head-text h3 {
-  font: 600 1.5rem "Poppins";
-  color: #848686;
-  margin: 0;
-  padding: 0;
-}
-header .header-hero-container .header-hero .head-text p {
-  font: 400 0.875rem "Poppins";
+#header_section .header_details .hero_ctn h1 {
+  font-family: "Yeseva One", cursive;
   text-align: left;
+  color: #c8f3d7;
+  font-size: 2rem;
+  font-weight: 400;
 }
-header .header-hero-container .header-hero .head-text .scroll {
-  position: absolute;
-  top: 35rem;
-  left: 14rem;
-  color: #414042;
-  font: 400 1rem "Poppins";
-  height: 100vh;
+#header_section .header_details .hero_ctn span {
+  text-align: left;
+  display: inline;
+  font-size: 1.75rem;
 }
-header .header-hero-container .header-hero .head-text .scroll-line::after {
-  content: " ";
-  position: absolute;
-  top: 38rem;
-  left: 15.54rem;
-  border-left: 1px solid #414042;
-  height: 20rem;
+#header_section .header_details .hero_ctn p {
+  margin: 1em 0;
+  text-align: left;
+  font-size: 0.875rem;
+  line-height: 1.6;
+  width: 90vw;
 }
-header .hanger-div {
+#header_section .header_details .hero_ctn .sub_text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+#header_section .header_details .hero_ctn .sub_text span {
+  text-align: left;
+  font-size: 1.875rem;
+  min-width: fit-content;
+  color: #6fc68e;
+  font-weight: 400;
+  font-family: "Yeseva One", cursive;
+}
+#header_section .header_details .hero_ctn .sub_text .subtext_line {
   display: none;
+  margin: auto 0.5rem;
+  width: 3rem;
+  height: 1px;
+  background-color: #6fc68e;
 }
-
-section {
+#header_section .header_details .hero_ctn .sub_text .subtext_here {
+  display: none;
+  color: #c8f3d7;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+#header_section .header_details .purpleblob_ctn {
+  position: relative;
+  z-index: -2;
+}
+#header_section .header_details .purpleblob_ctn .purpleblob {
+  position: absolute;
+  top: -3rem;
+  left: -10rem;
+  width: 20rem;
   height: 100vh;
+  z-index: -1;
 }
 
-@-webkit-keyframes translateDown {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(4em);
-  }
+#about_section .cyclinder_shp {
+  margin: 0 auto;
+  margin-top: 3.5rem;
+  width: 15rem;
+  height: 22rem;
+  background-color: #1a5454;
+  border-bottom-left-radius: 190px;
+  border-bottom-right-radius: 190px;
+}
+#about_section .aboutme_pic {
+  position: absolute;
+  top: 9rem;
+  margin: 0 auto;
+  width: 13rem;
+  border-bottom-left-radius: 190px;
+  border-bottom-right-radius: 190px;
+}
+#about_section .glass_bg .about_name {
+  margin: 2rem 0 0.5rem 0;
+  color: #6fc68e;
+}
+#about_section .glass_bg .title {
+  margin-bottom: 8em;
+  color: #ffffff;
+}
+#about_section .glass_bg p {
+  margin-top: 2rem;
+}
+#about_section .glass_bg .attribute_icons {
+  display: flex;
+  flex-direction: row;
+  color: white;
 }
 
-@keyframes translateDown {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(4em);
-  }
+#featured_projects .project_ctn {
+  text-align: left;
+  align-items: flex-start;
+  margin: 2rem auto;
+  background-color: #1a5454;
+  width: 90vw;
+  max-width: 80vw;
 }
-/* MEDIA QUERIES BEGIN*/
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-  .container {
-    background-color: green;
-  }
-  .container .blob {
-    display: none;
-  }
-  .container header .hanger-div {
-    display: none;
-  }
+#featured_projects .project_ctn .project_details {
+  margin: 2.5rem 0;
+  padding: 0 0.875rem;
 }
-/* Small devices (portrait tablets and large phones, 600px and below) */
-@media only screen and (max-width: 600px) {
-  .container {
-    background-color: red;
-  }
+#featured_projects .project_ctn .project_details span {
+  font-size: 0.875rem;
+  color: #6fc68e;
+  font-weight: 400;
 }
-/* Medium devices (landscape tablets, 768px and below) */
-@media only screen and (max-width: 768px) {
-  .container {
-    background-color: #42b983;
-  }
+#featured_projects .project_ctn .project_details h2 {
+  margin: 0.5em 0;
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #c8f3d7;
 }
-/* Large devices (laptops/desktops, 992px and below) */
-/* Extra large devices (large laptops and desktops, 1200px and below) */
-@media only screen and (max-width: 1200px) {
-  .container {
-    background-color: white;
-  }
-}/*# sourceMappingURL=app.css.map */
+#featured_projects .project_ctn .project_details p {
+  text-align: left;
+  font-size: 0.75rem;
+}
+#featured_projects .project_ctn .project_details ul {
+  margin: 1em 0 3em 0;
+  display: flex;
+  flex-direction: row;
+  font-size: 0.875rem;
+  list-style: none;
+}
+#featured_projects .project_ctn .project_details li {
+  margin-right: 1.5em;
+  color: #6fc68e;
+  font-size: 0.75rem;
+}
+#featured_projects .project_ctn .project_details .project_btn {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6fc68e;
+  width: 90%;
+  height: 3rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #033232;
+}
+#featured_projects .project_ctn .project_image {
+  width: 100%;
+}
+
+#contact_section p {
+  text-align: left;
+}
+#contact_section .CTA_btn {
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=app.css.map */
