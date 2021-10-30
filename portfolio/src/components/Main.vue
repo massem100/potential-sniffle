@@ -4,9 +4,9 @@
     <!-- Header Section -->
     <header id="header_section">
         <div class="header_details">
-            <div class="purpleblob_ctn">
+            <div class="blob-wrapper">
                 <img
-                    class="purpleblob"
+                    class="blob"
                     src="../assets/uploads/purpleblob.svg"
                     alt=""
                 />
@@ -17,8 +17,8 @@
 
             <div class="sub_text">
                 <span>A creative at heart</span>
-                <div class="subtext_line"></div>
-                <span class="subtext_here"> here.</span>
+                <div class="span_line"></div>
+                <span class="tag"> an analytical flair.</span>
             </div>
 
             <p>

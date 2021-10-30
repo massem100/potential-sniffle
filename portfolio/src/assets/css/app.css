@@ -58,11 +58,6 @@ table {
 }
 
 /*-----------------------------------*/
-* {
-  margin: 0;
-  padding: 0;
-}
-
 *,
 *::before,
 *::after {
@@ -119,6 +114,7 @@ nav {
   background-color: antiquewhite;
 }
 
+/* MODULES */
 nav {
   /*Nav Hamburger */
 }
@@ -145,7 +141,7 @@ nav .nav-hamburgerctn {
   width: 2rem;
   height: 2rem;
 }
-nav .nav-hamburgerctn .nav-hamburgerbtn {
+nav .nav-hamburgerbtn {
   margin: 2px 0;
   content: " ";
   width: 1.5rem;
@@ -175,50 +171,52 @@ nav .nav-hamburgerctn .nav-hamburgerbtn {
   background-color: #6fc68e;
 }
 
-#header_section .header_details {
+.header_details {
   margin: 1.5rem 0;
   padding: 0 1rem;
   max-width: 100%;
 }
-#header_section .header_details .hero_ctn {
+
+.hero_ctn {
   margin-top: 20vh;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
 }
-#header_section .header_details .hero_ctn .intro_span {
+.hero_ctn .intro_span {
   text-align: left;
   font-size: 0.875rem;
   font: 300 "Poppins";
   color: #ffffff;
 }
-#header_section .header_details .hero_ctn h1 {
+.hero_ctn h1 {
   font-family: "Yeseva One", cursive;
   text-align: left;
   color: #c8f3d7;
   font-size: 2rem;
   font-weight: 400;
 }
-#header_section .header_details .hero_ctn span {
+.hero_ctn span {
   text-align: left;
   display: inline;
   font-size: 1.75rem;
 }
-#header_section .header_details .hero_ctn p {
+.hero_ctn p {
   margin: 1em 0;
   text-align: left;
   font-size: 0.875rem;
   line-height: 1.6;
-  width: 90vw;
+  width: 80vw;
 }
-#header_section .header_details .hero_ctn .sub_text {
+
+.sub_text {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
 }
-#header_section .header_details .hero_ctn .sub_text span {
+.sub_text span {
   text-align: left;
   font-size: 1.875rem;
   min-width: fit-content;
@@ -226,33 +224,33 @@ nav .nav-hamburgerctn .nav-hamburgerbtn {
   font-weight: 400;
   font-family: "Yeseva One", cursive;
 }
-#header_section .header_details .hero_ctn .sub_text .subtext_line {
+.sub_text .span_line {
   display: none;
   margin: auto 0.5rem;
   width: 3rem;
   height: 1px;
   background-color: #6fc68e;
 }
-#header_section .header_details .hero_ctn .sub_text .subtext_here {
+.sub_text .tag {
   display: none;
   color: #c8f3d7;
   font-size: 1.5rem;
   font-weight: 300;
 }
-#header_section .header_details .purpleblob_ctn {
+
+.blob-wrapper {
   position: relative;
   z-index: -2;
 }
-#header_section .header_details .purpleblob_ctn .purpleblob {
+.blob-wrapper .blob {
   position: absolute;
   top: -3rem;
   left: -10rem;
   width: 20rem;
-  height: 100vh;
   z-index: -1;
 }
 
-#about_section .cyclinder_shp {
+.cyclinder_shp {
   margin: 0 auto;
   margin-top: 3.5rem;
   width: 15rem;
@@ -261,7 +259,8 @@ nav .nav-hamburgerctn .nav-hamburgerbtn {
   border-bottom-left-radius: 190px;
   border-bottom-right-radius: 190px;
 }
-#about_section .aboutme_pic {
+
+.aboutme_pic {
   position: absolute;
   top: 9rem;
   margin: 0 auto;
@@ -269,24 +268,25 @@ nav .nav-hamburgerctn .nav-hamburgerbtn {
   border-bottom-left-radius: 190px;
   border-bottom-right-radius: 190px;
 }
-#about_section .glass_bg .about_name {
+
+.glass_bg .about_name {
   margin: 2rem 0 0.5rem 0;
   color: #6fc68e;
 }
-#about_section .glass_bg .title {
+.glass_bg .title {
   margin-bottom: 8em;
   color: #ffffff;
 }
-#about_section .glass_bg p {
+.glass_bg p {
   margin-top: 2rem;
 }
-#about_section .glass_bg .attribute_icons {
+.glass_bg .attribute_icons {
   display: flex;
   flex-direction: row;
   color: white;
 }
 
-#featured_projects .project_ctn {
+.project_ctn {
   text-align: left;
   align-items: flex-start;
   margin: 2rem auto;
@@ -294,38 +294,39 @@ nav .nav-hamburgerctn .nav-hamburgerbtn {
   width: 90vw;
   max-width: 80vw;
 }
-#featured_projects .project_ctn .project_details {
+.project_ctn .project_details {
   margin: 2.5rem 0;
-  padding: 0 0.875rem;
+  padding: 2em 0.875rem;
 }
-#featured_projects .project_ctn .project_details span {
+.project_ctn .project_details span {
+  margin-top: 5em;
   font-size: 0.875rem;
   color: #6fc68e;
   font-weight: 400;
 }
-#featured_projects .project_ctn .project_details h2 {
+.project_ctn .project_details h2 {
   margin: 0.5em 0;
   font-size: 1.25rem;
   font-weight: 400;
   color: #c8f3d7;
 }
-#featured_projects .project_ctn .project_details p {
+.project_ctn .project_details p {
   text-align: left;
   font-size: 0.75rem;
 }
-#featured_projects .project_ctn .project_details ul {
+.project_ctn .project_details ul {
   margin: 1em 0 3em 0;
   display: flex;
   flex-direction: row;
   font-size: 0.875rem;
   list-style: none;
 }
-#featured_projects .project_ctn .project_details li {
+.project_ctn .project_details li {
   margin-right: 1.5em;
   color: #6fc68e;
   font-size: 0.75rem;
 }
-#featured_projects .project_ctn .project_details .project_btn {
+.project_ctn .project_details .project_btn {
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -337,7 +338,7 @@ nav .nav-hamburgerctn .nav-hamburgerbtn {
   font-weight: 400;
   color: #033232;
 }
-#featured_projects .project_ctn .project_image {
+.project_ctn .project_image {
   width: 100%;
 }
 
@@ -347,5 +348,11 @@ nav .nav-hamburgerctn .nav-hamburgerbtn {
 #contact_section .CTA_btn {
   margin: 0 auto;
 }
+
+/* Extra small devices (phones, 600px and down) */
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Medium devices (landscape tablets, 768px and up) */
+/* Large devices (laptops/desktops, 992px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
 
 /*# sourceMappingURL=app.css.map */
