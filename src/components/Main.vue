@@ -1,16 +1,16 @@
 <template>
   <!-- Main outer div -->
-  <div class="">
+ <div class="">
     <!-- Header Section -->
     <header id="header_section">
         <div class="header_details">
-            <div class="blob-wrapper">
+            <!-- <div class="blob-wrapper">
                 <img
                     class="blob"
                     src="../assets/uploads/purpleblob.svg"
                     alt=""
                 />
-            </div>
+            </div> -->
         <div class="hero_ctn">
             <span class="intro_span">Hi, my name is </span>
             <h1>Krystall Messam</h1>

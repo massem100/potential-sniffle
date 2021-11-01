@@ -1,7 +1,7 @@
 <template>
   <nav class="">
     <div class="nav-container">
-    <img class="nav-logo" src="../assets/uploads/logo.svg" alt="">
+    <!-- <img class="nav-logo" src="../assets/uploads/logo.svg" alt=""> -->
     <!-- <img class="nav-logo" src="../assets/uploads/M.svg" alt=""> -->
     <div class="nav-menu" @click="navdropdown">      
       <div class="nav-hamburgerctn">
