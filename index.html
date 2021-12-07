@@ -17,16 +17,74 @@
         <!-- <link href=../portfolio\src\assets\css\fontawesome.min.css> -->
         <!-- <link href=/static/css/app.12271479ee9b1c14c46ea5f27708ed42.css rel=stylesheet> -->
         <link rel="stylesheet" href="/static/css/style.css">
+        <link rel="stylesheet" href="/static/css/count.css">
+        
     </head>
+
         <body>
             <div id=app>
 
-                <h1>COMING SOON!</h1>
+                <div class="wrap"> 
+                  <div id="count-new"></div> 
+                    <h1>Launch <strong>Countdown</strong></h1>
+                  
+                    <div class="countdown">
+                        <div class="bloc-time days" data-init-value="25">
+                            <span class="count-title">Days</span>
+                      
+                            <div id= "days-1" class="figure days days-1">
+                             
+                            </div>
+                      
+                            <div id= "days-2"class="figure days days-2">
+                          
+                            </div>
+                          </div>
+                      <div class="bloc-time hours" data-init-value="24">
+                        <span class="count-title">Hours</span>
+                  
+                        <div id="hours-1" class="figure hours hours-1">
+                          
+                        </div>
+                  
+                        <div id="hours-2" class="figure hours hours-2">
+                          
+                        </div>
+                      </div>
+                  
+                      <div class="bloc-time min" data-init-value="0">
+                        <span class="count-title">Minutes</span>
+                  
+                        <div id="min-1" class="figure min min-1">
+                         
+                        </div>
+                  
+                        <div id="min-2" class="figure min min-2">
+                                                  
+                        </div>
+                      </div>
+                  
+                      <div class="bloc-time sec" data-init-value="0">
+                        <span class="count-title">Seconds</span>
+                  
+                          <div id="sec-1" class="figure sec sec-1">
+                          
+                          </span>          
+                        </div>
+                  
+                        <div id="sec-2" class="figure sec sec-2">
+                          
+                        </div>
+                      </div>
+                    </div>
+                  </div>
             </div>
             <!-- <script type=text/javascript src=/static/js/manifest.2ae2e69a05c33dfc65f8.js></script>
             <script type=text/javascript src=/static/js/vendor.3a66366fea3da4371a6a.js></script>
             
             <script type=text/javascript src=/static/js/app.233b9b17f245bd78e51f.js></script> -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+            <script src="/static/js/count.js"></script>
         </body>
 
 
