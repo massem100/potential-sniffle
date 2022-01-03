@@ -1,12 +1,13 @@
 /* ------------------CSS RESETS AND BASE RULES ------------------*/
 
 /*-------------COLOUR ---------------*/
-$primary-color: #ffffff;
-$secondary-color: #000702;
-$accent-color: #000000;
-$heading-color: #000000;
 $bgblend-color: #000000;
-$text-color: #000000;
+$text-color: #ffffff;
+$bg_color_main: #261D2C;
+$accent-color: #A073BA;
+$main-headings: #F3DFFF;
+$blurb-color-1: #342B3B;
+$blurb-color-2: #DBD3F0;
 
 $font-stack: "Yeseva One", cursive;
 
@@ -28,7 +29,7 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
+	// font: inherit;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -40,7 +41,7 @@ footer, header, hgroup, menu,  nav,   section {
 
 body {
   line-height: 1;
-  background-color: $primary-color;
+  background-color: $bg_color_main;
 }
 
 ol,

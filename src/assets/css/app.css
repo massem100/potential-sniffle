@@ -18,7 +18,6 @@ time, mark, audio, video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
   vertical-align: baseline;
 }
 
@@ -31,7 +30,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
   line-height: 1;
-  background-color: #ffffff;
+  background-color: #261D2C;
 }
 
 ol,
@@ -68,7 +67,7 @@ p {
   margin: 5px 0 10px 0;
   font-family: "Poppins", sans-serif;
   font-size: 0.875rem;
-  color: #000000;
+  color: #ffffff;
   line-height: 1.6;
 }
 
@@ -77,7 +76,7 @@ p {
 nav {
   display: flex;
   flex-direction: row;
-  background-color: #ffffff;
+  background-color: #261D2C;
 }
 
 #header_section {
@@ -101,8 +100,8 @@ nav {
 #featured_projects {
   padding: 2rem 1rem;
   max-width: 100%;
-  color: #000000;
-  background-color: #ffffff;
+  color: #ffffff;
+  background-color: #261D2C;
 }
 
 #contact_section {
@@ -153,7 +152,7 @@ nav .nav-hamburgerbtn {
 
 .section_h1s {
   margin-top: 2rem;
-  color: #000000;
+  color: #F3DFFF;
   font-family: "Yeseva One", cursive;
   font-size: 2rem;
   font-weight: 400;
@@ -168,8 +167,8 @@ nav .nav-hamburgerbtn {
   width: 10em;
   height: 3em;
   font-weight: 600;
-  color: #ffffff;
-  background-color: #000702;
+  color: #261D2C;
+  background-color: #A073BA;
 }
 
 .header_details {
@@ -189,12 +188,12 @@ nav .nav-hamburgerbtn {
   text-align: left;
   font-size: 0.875rem;
   font: 300 "Poppins";
-  color: #000000;
+  color: #ffffff;
 }
 .hero_ctn h1 {
   font-family: "Yeseva One", cursive;
   text-align: left;
-  color: #000000;
+  color: #F3DFFF;
   font-size: 2rem;
   font-weight: 400;
 }
@@ -221,7 +220,7 @@ nav .nav-hamburgerbtn {
   text-align: left;
   font-size: 1.875rem;
   min-width: fit-content;
-  color: #000702;
+  color: #A073BA;
   font-weight: 400;
   font-family: "Yeseva One", cursive;
 }
@@ -234,7 +233,7 @@ nav .nav-hamburgerbtn {
 }
 .sub_text .tag {
   display: none;
-  color: #000000;
+  color: #F3DFFF;
   font-size: 1.5rem;
   font-weight: 300;
 }
@@ -272,11 +271,11 @@ nav .nav-hamburgerbtn {
 
 .glass_bg .about_name {
   margin: 2rem 0 0.5rem 0;
-  color: #000702;
+  color: #A073BA;
 }
 .glass_bg .title {
   margin-bottom: 8em;
-  color: #000000;
+  color: #ffffff;
 }
 .glass_bg p {
   margin-top: 2rem;
@@ -291,7 +290,7 @@ nav .nav-hamburgerbtn {
   text-align: left;
   align-items: flex-start;
   margin: 2rem auto;
-  background-color: #000000;
+  background-color: #261D2C;
   width: 90vw;
   max-width: 80vw;
 }
@@ -302,14 +301,14 @@ nav .nav-hamburgerbtn {
 .project_ctn .project_details span {
   margin-top: 5em;
   font-size: 0.875rem;
-  color: #000702;
+  color: #F3DFFF;
   font-weight: 400;
 }
 .project_ctn .project_details h2 {
   margin: 0.5em 0;
   font-size: 1.25rem;
   font-weight: 400;
-  color: #000000;
+  color: #F3DFFF;
 }
 .project_ctn .project_details p {
   text-align: left;
@@ -324,7 +323,7 @@ nav .nav-hamburgerbtn {
 }
 .project_ctn .project_details li {
   margin-right: 1.5em;
-  color: #000702;
+  color: #F3DFFF;
   font-size: 0.75rem;
 }
 .project_ctn .project_details .project_btn {
@@ -332,12 +331,12 @@ nav .nav-hamburgerbtn {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #000702;
+  background-color: #A073BA;
   width: 90%;
   height: 3rem;
   font-size: 0.875rem;
   font-weight: 400;
-  color: #ffffff;
+  color: #261D2C;
 }
 .project_ctn .project_image {
   width: 100%;
