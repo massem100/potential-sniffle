@@ -1,7 +1,14 @@
 body {
   background-color: #f2f1ed;
 }
+.flex{
+  display: flex;
+}
 
+.row{
+  justify-content: center;
+  align-content: center;
+}
 .wrap {
   position: absolute;
   bottom: 0;
